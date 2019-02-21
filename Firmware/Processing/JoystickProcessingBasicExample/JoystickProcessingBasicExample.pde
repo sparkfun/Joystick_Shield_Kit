@@ -51,7 +51,7 @@ void setup() {
   
   // We assume that the Arduino is the first device in the list,
   // if it's not the first device you need to change the '0'.
-  arduino = new Arduino(this, Arduino.list()[4], 57600);
+  arduino = new Arduino(this, Arduino.list()[0], 57600);
 
 
   // Specify each pin connected to a pushbutton as an input.
